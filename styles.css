@@ -507,6 +507,12 @@ textarea {
   transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
+.project-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 .service-card::before,
 .sector-card::before,
 .project-card::before,
@@ -629,6 +635,105 @@ textarea {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.project-read-more {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 14px;
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.project-read-more::after {
+  content: "→";
+  margin-left: 8px;
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover .project-read-more::after,
+.project-card:focus-visible .project-read-more::after {
+  transform: translateX(4px);
+}
+
+.case-study-page {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.case-study-header {
+  border-bottom: 1px solid rgba(140, 82, 255, 0.08);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 82px;
+  gap: 20px;
+}
+
+.case-study-main {
+  padding-top: 56px;
+  padding-bottom: 80px;
+}
+
+.case-study-article {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 24px 20px;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background: linear-gradient(180deg, rgba(140, 82, 255, 0.02), rgba(255, 255, 255, 0.8));
+  box-shadow: var(--shadow);
+}
+
+.case-study-article h1 {
+  margin: 8px 0 20px;
+  color: var(--text);
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  line-height: 1.04;
+  letter-spacing: -0.06em;
+}
+
+.case-study-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin: 0 0 24px;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.case-study-article h2 {
+  margin: 32px 0 14px;
+  color: var(--text);
+  font-size: clamp(1.5rem, 2vw, 2.2rem);
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+.case-study-article p,
+.case-study-article li {
+  color: var(--muted);
+  font-size: 1.04rem;
+  line-height: 1.8;
+}
+
+.case-study-article ul {
+  padding-left: 20px;
+  margin: 0 0 18px;
+}
+
+.case-study-article strong {
+  color: var(--text);
+}
+
+.case-study-article .case-study-cta {
+  margin-top: 30px;
 }
 
 @media (max-width: 980px) {
