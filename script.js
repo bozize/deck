@@ -34,7 +34,7 @@ if (contactForm) {
       `Name: ${name}\nOrganisation: ${org}\nEmail: ${email}\n\nProject details:\n${message}`
     );
 
-    window.location.href = `mailto:hello@azahnsolutions.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:hello@tiigsadglobal.com?subject=${subject}&body=${body}`;
     contactForm.reset();
   });
 }
