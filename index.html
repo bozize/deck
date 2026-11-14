@@ -14,7 +14,7 @@
 <style>
 :root{--navy:#101d32;--navy2:#172944;--gold:#c7a45b;--gold2:#e1c98e;--ink:#1e293b;--muted:#64748b;--paper:#f7f8fa;--line:#e5e9ef;--white:#fff;--serif:Georgia,"Times New Roman",serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:var(--sans);color:var(--ink);background:#fff;line-height:1.65}a{color:inherit;text-decoration:none}.container{width:min(1160px,calc(100% - 44px));margin:auto}.topline{height:4px;background:linear-gradient(90deg,var(--gold),#e8d6a8,var(--gold))}.header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.96);backdrop-filter:blur(14px);border-bottom:1px solid rgba(16,29,50,.12)}.nav{height:82px;display:flex;align-items:center;justify-content:space-between;gap:28px}.brand{display:flex;align-items:center;gap:12px;color:var(--navy)}.brand-logo{display:block;height:58px;width:auto;max-width:270px;filter:drop-shadow(0 4px 20px rgba(0,0,0,.08))}.mark{width:43px;height:43px;border:1px solid var(--gold);display:grid;place-items:center;color:var(--gold2);font-family:var(--serif);font-weight:700;font-size:18px;letter-spacing:-2px}.brand-name{font-weight:750;letter-spacing:.12em;font-size:16px}.brand-sub{font-size:9px;letter-spacing:.22em;color:#c6ced9;margin-top:1px}.navlinks{display:flex;align-items:center;gap:26px;color:var(--navy);font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.navlinks a{position:relative;padding:8px 0;color:var(--navy);transition:color .2s ease,transform .2s ease}.navlinks a::after{content:"";position:absolute;left:0;bottom:-4px;width:100%;height:2px;background:linear-gradient(90deg,var(--gold),var(--gold2));transform:scaleX(0);transform-origin:left;transition:transform .22s ease;opacity:.95}.navlinks a:hover,.navlinks a:focus-visible,.navlinks a.active{color:var(--gold)}.navlinks a:hover::after,.navlinks a:focus-visible::after,.navlinks a.active::after{transform:scaleX(1)}.navlinks a:hover{transform:translateY(-1px)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;background:var(--gold);color:var(--navy);font-size:12px;font-weight:800;letter-spacing:.04em;border:1px solid var(--gold);transition:.2s}.nav-cta:hover,.btn:hover{background:var(--gold2);border-color:var(--gold2);transform:translateY(-1px)}.btn-outline{background:transparent;color:#fff;border-color:rgba(255,255,255,.45)}.btn-outline:hover{color:var(--navy)}.menu{display:none;background:none;border:1px solid #66758a;color:#fff;padding:8px 11px;font-size:20px}
-.hero{background:transparent;color:#fff;position:relative;overflow:hidden;min-height:760px;display:flex;align-items:center}.hero:before,.hero:after{display:none}.hero-video-bg{position:absolute;inset:0;z-index:0}.hero-video-bg video{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover;filter:saturate(1.14) contrast(1.14) brightness(.72);background:#0b1525}.hero-inner{position:relative;z-index:1;padding:112px 0 105px;display:flex;align-items:flex-end;justify-content:flex-start;min-height:760px}.hero-caption{max-width:760px;text-align:left}.hero-caption .tag{display:inline-block;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#f2d89a;font-weight:800;margin-bottom:14px}.hero-caption h1{margin:0;font-family:var(--serif);font-size:clamp(32px,3.4vw,56px);line-height:1.04;letter-spacing:-.04em;font-weight:400;color:#fff;text-shadow:0 4px 30px rgba(0,0,0,.45)}.hero-caption h1 .accent{color:var(--gold2)}.hero-caption p{margin:14px 0 0;font-size:18px;line-height:1.6;color:#edf2f7;max-width:640px;letter-spacing:.01em;text-shadow:0 5px 20px rgba(0,0,0,.35)}.hero-panel{border:1px solid rgba(225,201,142,.35);background:rgba(255,255,255,.045);padding:30px;backdrop-filter:blur(8px)}.hero-panel .panel-label{font-size:10px;color:var(--gold2);letter-spacing:.18em;text-transform:uppercase}.hero-panel h3{font-family:var(--serif);font-weight:400;font-size:27px;line-height:1.25;margin:12px 0 22px}.pillar{display:flex;gap:13px;padding:13px 0;border-top:1px solid rgba(255,255,255,.13);align-items:center}.pillar b{font-size:11px;letter-spacing:.09em;color:#fff}.pillar span{font-size:11px;color:#aebccc;margin-left:auto;text-align:right}.pillar i{font-style:normal;color:var(--gold2);font-size:17px}.hero-video-wrap{display:none}.hero-video-overlay{display:none}.hero-video-badge{display:none}.hero-details{background:#f6f5f2;border-top:1px solid rgba(16,29,50,.08);border-bottom:1px solid rgba(16,29,50,.08)}.hero-details .container{padding:34px 0 42px}.hero-detail-block{max-width:1180px}.eyebrow{color:var(--gold2);font-size:10px;letter-spacing:.22em;text-transform:uppercase;font-weight:800}.hero-detail-block .eyebrow{margin-bottom:18px}.hero-detail-block h2{font-family:var(--serif);font-weight:400;font-size:clamp(42px,5vw,96px);line-height:.98;letter-spacing:-.05em;margin:0;color:var(--navy)}.hero-detail-block h2 .accent{color:var(--gold);font-style:normal}.hero-detail-block p{font-size:22px;line-height:1.6;color:#264058;margin:26px 0 0;max-width:1120px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.hero-note{margin-top:18px;font-size:11px;color:#536176;letter-spacing:.04em}.hero-actions .btn{padding:15px 22px;font-size:12px}.hero-actions .btn-outline{background:transparent;border:1px solid rgba(16,29,50,.25);color:var(--navy)}
+.hero{background:transparent;color:#fff;position:relative;overflow:hidden;min-height:760px;display:flex;align-items:center}.hero:before,.hero:after{display:none}.hero-video-bg{position:absolute;inset:0;z-index:0}.hero-video-bg video{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover;filter:saturate(1.14) contrast(1.14) brightness(.72);background:#0b1525}.hero-inner{position:relative;z-index:1;padding:112px 0 105px;display:flex;align-items:flex-end;justify-content:flex-start;min-height:760px}.hero-caption{max-width:760px;text-align:left}.hero-caption .tag{display:inline-block;font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:#f2d89a;font-weight:800;margin-bottom:14px}.hero-caption h1{margin:0;font-family:var(--serif);font-size:clamp(32px,3.4vw,56px);line-height:1.04;letter-spacing:-.04em;font-weight:400;color:#fff;text-shadow:0 4px 30px rgba(0,0,0,.45)}.hero-caption h1 .accent{color:var(--gold2)}.hero-caption p{margin:14px 0 0;font-size:18px;line-height:1.6;color:#edf2f7;max-width:640px;letter-spacing:.01em;text-shadow:0 5px 20px rgba(0,0,0,.35)}.text-block{max-width:900px}.lead{font-size:18px;line-height:1.7;color:#29415d}.subtle{color:var(--muted)}.architecture-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:36px}.architecture-card{background:#fff;border:1px solid var(--line);padding:30px;min-height:100%}.architecture-card .meta{display:block;font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:#9a7b3a;font-weight:800;margin:10px 0 14px}.architecture-card h3{font-family:var(--serif);font-size:30px;font-weight:400;color:var(--navy);margin:0 0 12px}.architecture-card ul{margin:12px 0 0;padding-left:18px;color:var(--muted);font-size:13px;line-height:1.8}.architecture-card ul li{margin:0}.architecture-card .purpose{display:block;margin-top:18px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--navy);font-weight:800}.ai-section{background:#f8f6f2}.ai-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:40px;align-items:start}.ai-quote{background:linear-gradient(135deg,#101d32,#2d4666);padding:26px;color:#fff;border:1px solid rgba(225,201,142,.22)}.ai-quote .mini{font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#f2d89a;font-weight:800}.ai-quote h3{font-family:var(--serif);font-size:32px;font-weight:400;line-height:1.2;margin:18px 0}.ai-boxes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.ai-box{background:#fff;border:1px solid var(--line);padding:22px}.ai-box h4{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:#8d6b2e;margin:0 0 12px}.ai-box p{margin:0;color:var(--muted);font-size:13px;line-height:1.7}.focus-list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px 22px;margin-top:20px;list-style:none;padding:0}.focus-list li{position:relative;padding-left:14px;color:#314866;font-size:13px}.focus-list li:before{content:"•";position:absolute;left:0;color:var(--gold)}.capability-list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.capability-card{background:#fff;border:1px solid var(--line);padding:22px 20px}.capability-card h3{font-family:var(--serif);font-size:26px;font-weight:400;color:var(--navy);margin:0 0 10px}.capability-card ul{margin:0;padding-left:18px;color:var(--muted);font-size:13px;line-height:1.8}.method-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-top:26px}.method-step{background:#fff;border:1px solid var(--line);padding:22px 18px}.method-step .num{font-family:var(--serif);font-size:26px;color:#b08d4d}.method-step h4{font-family:var(--serif);font-size:22px;color:var(--navy);margin:10px 0 8px}.method-step p{margin:0;color:var(--muted);font-size:12px;line-height:1.7}.sector-list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.sector-list .sector{background:transparent;border:1px solid rgba(255,255,255,.18);padding:22px 20px;min-height:initial}.insight-list{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.insight-list .insight{min-height:100%}.closing-quote{background:#f6f4ee}.closing-box{max-width:980px}.hero-panel{border:1px solid rgba(225,201,142,.35);background:rgba(255,255,255,.045);padding:30px;backdrop-filter:blur(8px)}.hero-panel .panel-label{font-size:10px;color:var(--gold2);letter-spacing:.18em;text-transform:uppercase}.hero-panel h3{font-family:var(--serif);font-weight:400;font-size:27px;line-height:1.25;margin:12px 0 22px}.pillar{display:flex;gap:13px;padding:13px 0;border-top:1px solid rgba(255,255,255,.13);align-items:center}.pillar b{font-size:11px;letter-spacing:.09em;color:#fff}.pillar span{font-size:11px;color:#aebccc;margin-left:auto;text-align:right}.pillar i{font-style:normal;color:var(--gold2);font-size:17px}.hero-video-wrap{display:none}.hero-video-overlay{display:none}.hero-video-badge{display:none}.hero-details{background:#f6f5f2;border-top:1px solid rgba(16,29,50,.08);border-bottom:1px solid rgba(16,29,50,.08)}.hero-details .container{padding:34px 0 42px}.hero-detail-block{max-width:1180px}.eyebrow{color:var(--gold2);font-size:10px;letter-spacing:.22em;text-transform:uppercase;font-weight:800}.hero-detail-block .eyebrow{margin-bottom:18px}.hero-detail-block h2{font-family:var(--serif);font-weight:400;font-size:clamp(42px,5vw,96px);line-height:.98;letter-spacing:-.05em;margin:0;color:var(--navy)}.hero-detail-block h2 .accent{color:var(--gold);font-style:normal}.hero-detail-block p{font-size:22px;line-height:1.6;color:#264058;margin:26px 0 0;max-width:1120px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.hero-note{margin-top:18px;font-size:11px;color:#536176;letter-spacing:.04em}.hero-actions .btn{padding:15px 22px;font-size:12px}.hero-actions .btn-outline{background:transparent;border:1px solid rgba(16,29,50,.25);color:var(--navy)}
 .trustbar{background:#f1f3f6;border-bottom:1px solid var(--line)}.trust-inner{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:23px 0}.trust-inner strong{font-size:10px;letter-spacing:.15em;color:#7b8797;text-transform:uppercase}.trust-items{display:flex;gap:28px;flex-wrap:wrap;color:#526176;font-size:11px;font-weight:700}
 section{padding:88px 0}.section-head{max-width:720px;margin-bottom:42px}.kicker{font-size:10px;text-transform:uppercase;letter-spacing:.2em;color:#9b7a3b;font-weight:800}.section-head h2{font-family:var(--serif);font-size:clamp(33px,4vw,47px);line-height:1.16;font-weight:400;color:var(--navy);margin:13px 0}.section-head p{color:var(--muted);font-size:14px;max-width:670px}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.intro-visual{min-height:400px;background:linear-gradient(145deg,rgba(16,29,50,.05),rgba(199,164,91,.17)),linear-gradient(30deg,#dce3e9,#f3eee3);position:relative;overflow:hidden;padding:30px;display:flex;align-items:end}.visual-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(16,29,50,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(16,29,50,.08) 1px,transparent 1px);background-size:38px 38px;mask-image:linear-gradient(black,transparent)}.visual-card{position:relative;background:var(--navy);color:#fff;padding:27px;max-width:310px}.visual-card small{color:var(--gold2);letter-spacing:.16em;text-transform:uppercase;font-size:9px}.visual-card strong{display:block;font-family:var(--serif);font-size:25px;font-weight:400;line-height:1.25;margin:12px 0}.visual-card p{font-size:11px;color:#bdc8d6;margin:0}.intro-copy h3{font-family:var(--serif);font-size:30px;font-weight:400;color:var(--navy);line-height:1.3;margin:0 0 18px}.intro-copy p{color:var(--muted);font-size:14px}.checks{list-style:none;padding:0;margin:22px 0}.checks li{padding:8px 0 8px 27px;position:relative;font-size:13px;color:#405067}.checks li:before{content:"✓";position:absolute;left:0;color:#a27e39;font-weight:900}
 .business-architecture{background:var(--paper);border-top:1px solid var(--line)}.business-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.business-card{background:#fff;border:1px solid var(--line);padding:28px;min-height:200px;transition:.25s}.business-card:hover{transform:translateY(-4px);border-color:#c7a45b;box-shadow:0 12px 28px rgba(16,29,50,.06)}.business-type{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;background:var(--navy);color:var(--gold2);font-weight:800;border-radius:999px;margin-bottom:12px}.business-card h3{font-family:var(--serif);font-size:25px;font-weight:400;line-height:1.2;color:var(--navy);margin:0 0 8px}.business-meta{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#a37b31;font-weight:800;margin-bottom:10px}.business-card p{color:var(--muted);font-size:13px;margin:0 0 14px}.business-card strong{display:block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--navy);margin-top:10px}.differentiation{background:#fff}.diff-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.diff-item{border:1px solid var(--line);background:#fff;padding:28px}.diff-item span{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border-radius:50%;background:#f5efe3;color:#7c612e;font-weight:800;margin-bottom:12px}.diff-item h3{font-family:var(--serif);font-size:24px;font-weight:400;color:var(--navy);margin:0 0 8px}.diff-item p{color:var(--muted);font-size:13px;margin:0}.services{background:var(--paper)}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service-card{background:#fff;border:1px solid var(--line);padding:27px;min-height:280px;transition:.25s}.service-card:hover{transform:translateY(-4px);border-color:#c7a45b;box-shadow:0 14px 32px rgba(16,29,50,.07)}.service-no{font-family:var(--serif);font-size:28px;color:#b08d4d}.service-card h3{font-family:var(--serif);font-weight:400;font-size:23px;line-height:1.25;color:var(--navy);margin:13px 0}.service-card p{font-size:12px;color:var(--muted);margin:0 0 17px}.service-card ul{padding-left:17px;color:#526176;font-size:11px;line-height:1.9}.learn{font-size:11px;font-weight:800;color:#94702e;letter-spacing:.04em}
@@ -37,7 +37,7 @@ section{padding:88px 0}.section-head{max-width:720px;margin-bottom:42px}.kicker{
     </a>
     <button class="menu" id="menuBtn" aria-label="Open navigation">☰</button>
     <nav class="navlinks" id="navLinks">
-      <a href="our-story.html">Our Story</a><a href="impact.html">Impact</a><a href="services.html">Services</a><a href="industry.html">Industry</a><a href="insights-publications.html">Insights &amp; Publications</a>
+      <a href="our-story.html">Our Story</a><a href="impact.html">Impact</a><a href="services.html">Services</a><a href="industry.html">Industry</a><a href="insights-publications.html">Insights &amp; Publications</a><a href="#ai-intelligence">AI &amp; Intelligence</a><a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
@@ -50,9 +50,14 @@ section{padding:88px 0}.section-head{max-width:720px;margin-bottom:42px}.kicker{
   </div>
   <div class="container hero-inner">
     <div class="hero-caption">
-      <span class="tag">TiigSad Global</span>
-      <h1>We help organisations navigate complexity with clarity, confidence and practical action.</h1>
-      <p>Advisory, assurance and technology solutions for governments, development partners and businesses building stronger systems and better outcomes.</p>
+      <span class="tag">TIIGSAD GLOBAL</span>
+      <h1>We help organisations navigate complexity, harness intelligence and build solutions for the future.</h1>
+      <p>An independent research, advisory and solutions firm combining multidisciplinary expertise, artificial intelligence and advanced technology to help governments, development partners and businesses make better decisions and achieve meaningful results.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#services">Explore Our Services</a>
+        <a class="btn btn-outline" href="#story">Discover TiigSad</a>
+      </div>
+      <div class="hero-note">SOMALIA · EAST AFRICA · INTERNATIONAL PARTNERSHIPS</div>
     </div>
   </div>
 </section>
@@ -60,158 +65,263 @@ section{padding:88px 0}.section-head{max-width:720px;margin-bottom:42px}.kicker{
 <section class="hero-details">
   <div class="container">
     <div class="hero-detail-block">
-      <div class="eyebrow">Independent thinking. Practical delivery.</div>
-      <h2>Turning complex challenges<br>into <span class="accent">practical solutions.</span></h2>
-      <p>TiigSad Global is an advisory, assurance and solutions firm supporting governments, development partners, organisations and businesses with the insight, systems and expertise to make better decisions and deliver stronger results.</p>
-      <div class="hero-actions">
-        <a class="btn" href="#services">Explore our services ↗</a>
-        <a class="btn btn-outline" href="#story">Discover TiigSad</a>
-      </div>
-      <div class="hero-note">SOMALIA · EAST AFRICA · INTERNATIONAL PARTNERSHIPS</div>
+      <div class="eyebrow">Independent thinking. Intelligent solutions. Practical delivery.</div>
+      <h2>Turning complex challenges <span class="accent">into informed decisions</span> and measurable outcomes.</h2>
     </div>
   </div>
 </section>
-<div class="trustbar"><div class="container trust-inner"><strong>Working across interconnected priorities</strong><div class="trust-items"><span>PUBLIC INSTITUTIONS</span><span>DEVELOPMENT PARTNERS</span><span>PRIVATE SECTOR</span><span>COMMUNITIES</span></div></div></div>
 
 <section id="story">
- <div class="container intro-grid">
-  <div class="intro-visual"><div class="visual-grid"></div><div class="visual-card"><small>TIIGSAD GLOBAL</small><strong>Insight that informs. Expertise that delivers.</strong><p>Advisory · Assurance · Solutions</p></div></div>
-  <div class="intro-copy"><div class="kicker">Who we are</div><h3>A multidisciplinary partner for institutions, development and enterprise.</h3><p>TiigSad Global brings together professional advisory, assurance, financial, institutional and technology capabilities to help clients address complex operational and development challenges.</p><p>We work across the full cycle: understanding the challenge, assessing the evidence, designing a response and supporting practical implementation.</p>
-   <ul class="checks"><li>Evidence-led analysis and clear recommendations</li><li>Practical solutions designed around client needs</li><li>Multidisciplinary expertise and local context</li><li>Flexible collaboration with specialist partners</li></ul>
-   <a class="learn" href="#architecture">HOW WE WORK ↗</a>
+  <div class="container intro-grid">
+    <div class="intro-visual">
+      <div class="visual-grid"></div>
+      <div class="visual-card">
+        <small>TIIGSAD GLOBAL</small>
+        <strong>Insight that informs. Intelligence that empowers. Expertise that delivers.</strong>
+        <p>Research · Advisory · Solutions</p>
+      </div>
+    </div>
+    <div class="intro-copy">
+      <div class="kicker">TIIGSAD GLOBAL</div>
+      <h3>Insight that informs. Intelligence that empowers. Expertise that delivers.</h3>
+      <p class="lead">TiigSad Global is an independent research, advisory and solutions firm supporting governments, development partners, organisations and businesses with the knowledge, expertise and technology required to navigate complex challenges.</p>
+      <p>We bring together research, strategic advisory, institutional expertise, digital innovation and implementation support to help organisations understand problems, make informed decisions and achieve sustainable results.</p>
+      <p>Artificial intelligence and advanced analytics are increasingly integrated into how we research, analyse, advise and develop solutions, strengthening our ability to turn information into actionable intelligence.</p>
+      <ul class="checks">
+        <li>Evidence-led research and intelligent analysis.</li>
+        <li>Strategic thinking and practical recommendations.</li>
+        <li>Artificial intelligence and advanced technologies.</li>
+        <li>Multidisciplinary expertise and local understanding.</li>
+        <li>Practical implementation and measurable outcomes.</li>
+      </ul>
+    </div>
   </div>
- </div>
 </section>
 
 <section class="business-architecture" id="architecture">
   <div class="container">
-    <div class="section-head"><div class="kicker">TiigSad Global</div><h2>Proposed Business Architecture</h2></div>
-    <div class="business-grid">
-      <article class="business-card">
-        <div class="business-type">1</div>
+    <div class="section-head">
+      <div class="kicker">TIIGSAD GLOBAL</div>
+      <h2>Four integrated divisions. One connected approach.</h2>
+      <p>Our organisational structure brings together four complementary divisions, each with specialised capabilities and a shared commitment to delivering informed, innovative and practical solutions.</p>
+    </div>
+    <div class="architecture-grid">
+      <article class="architecture-card">
+        <div class="business-type">01</div>
         <h3>TiigSad Development Observatory</h3>
-        <span class="business-meta">Research · Publications · Development Intelligence</span>
-        <p>Conducts independent research, produces publications, analyses development challenges and generates evidence-based insights to inform policy and investment decisions.</p>
-        <strong>Strategic purpose:</strong>
-        <p>Builds public credibility, establishes thought leadership and identifies development challenges and opportunities.</p>
+        <span class="meta">RESEARCH · DATA · DEVELOPMENT INTELLIGENCE · AI-POWERED INSIGHTS</span>
+        <p>The research and knowledge-generation arm, combining multidisciplinary research expertise, advanced analytics and artificial intelligence to generate reliable evidence, uncover insights and inform better decisions.</p>
+        <strong class="purpose">Strategic purpose</strong>
+        <ul>
+          <li>Social and economic research</li>
+          <li>Field surveys and intelligent data collection</li>
+          <li>GIS, geospatial intelligence and data analytics</li>
+          <li>AI-assisted research, evidence synthesis and literature reviews</li>
+          <li>Advanced statistical analysis and predictive modelling</li>
+        </ul>
       </article>
-      <article class="business-card">
-        <div class="business-type">2</div>
+      <article class="architecture-card">
+        <div class="business-type">02</div>
         <h3>TiigSad Advisory</h3>
-        <span class="business-meta">Strategy · Policy · Institutional Reform · Project Advisory</span>
-        <p>Provides strategic consulting, policy development, institutional strengthening, organisational reform and project advisory services to governments, development partners and private-sector institutions.</p>
-        <strong>Strategic purpose:</strong>
-        <p>Generates professional consulting revenue through high-value advisory assignments.</p>
+        <span class="meta">STRATEGY · POLICY · INSTITUTIONAL REFORM · AI TRANSFORMATION</span>
+        <p>The strategic consulting arm, helping governments, development partners and businesses navigate institutional, economic and technological change through evidence-led advisory and forward-looking strategies.</p>
+        <strong class="purpose">Strategic purpose</strong>
+        <ul>
+          <li>Government and public-sector advisory</li>
+          <li>Institutional strengthening and organisational transformation</li>
+          <li>Policy and regulatory development</li>
+          <li>AI readiness assessments and adoption strategies</li>
+          <li>Responsible AI governance and institutional frameworks</li>
+        </ul>
       </article>
-      <article class="business-card">
-        <div class="business-type">3</div>
-        <h3>TiigSad Technology & Solutions</h3>
-        <span class="business-meta">Digital Government · Software · Data Systems · Technology Implementation</span>
-        <p>Designs, develops and implements digital platforms, government information systems, data management solutions and technology infrastructure.</p>
-        <strong>Strategic purpose:</strong>
-        <p>Generates technology development revenue and recurring income through system maintenance, licensing and technical support.</p>
+      <article class="architecture-card">
+        <div class="business-type">03</div>
+        <h3>TiigSad Technology &amp; Solutions</h3>
+        <span class="meta">DIGITAL GOVERNMENT · DATA SYSTEMS · AI · INTELLIGENT TECHNOLOGIES</span>
+        <p>The digital transformation and technology arm, designing and deploying modern digital infrastructure, intelligent applications and AI-enabled systems that improve organisational performance and service delivery.</p>
+        <strong class="purpose">Strategic purpose</strong>
+        <ul>
+          <li>Digital government platforms</li>
+          <li>Management information systems</li>
+          <li>Monitoring and evaluation platforms</li>
+          <li>AI-powered applications and intelligent platforms</li>
+          <li>Enterprise AI integration and knowledge management</li>
+        </ul>
       </article>
-      <article class="business-card">
-        <div class="business-type">4</div>
-        <h3>TiigSad Implementation & Assurance</h3>
-        <span class="business-meta">Programme Implementation Support · Technical Reviews · Institutional Assessments</span>
-        <p>Provides programme implementation support, technical assessments, infrastructure reviews, project quality assurance, institutional evaluations and independent performance reviews.</p>
-        <strong>Strategic purpose:</strong>
-        <p>Generates implementation, technical advisory and assurance contracts.</p>
+      <article class="architecture-card">
+        <div class="business-type">04</div>
+        <h3>TiigSad Implementation &amp; Assurance</h3>
+        <span class="meta">MONITORING · EVALUATION · ASSURANCE · DELIVERY · INTELLIGENT AUTOMATION</span>
+        <p>The implementation and independent assurance arm, combining professional expertise, rigorous verification methodologies and intelligent technologies to strengthen programme delivery, accountability and performance.</p>
+        <strong class="purpose">Strategic purpose</strong>
+        <ul>
+          <li>Third-party monitoring</li>
+          <li>Programme evaluation</li>
+          <li>Donor compliance and assurance</li>
+          <li>AI-assisted monitoring and performance analysis</li>
+          <li>Data-driven risk identification and anomaly detection</li>
+        </ul>
       </article>
+    </div>
+  </div>
+</section>
+
+<section class="ai-section" id="ai-intelligence">
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">OUR PERSPECTIVE</div>
+      <h2>Intelligence embedded in everything we do.</h2>
+    </div>
+    <div class="ai-grid">
+      <div class="ai-quote">
+        <div class="mini">AI &amp; Intelligence</div>
+        <h3>Artificial intelligence is reshaping industries, institutions and the way the world works.</h3>
+        <p class="lead">At TiigSad Global, we recognise that this transformation goes beyond technology.</p>
+      </div>
+      <div>
+        <p class="lead">We integrate artificial intelligence, advanced analytics and emerging technologies into our research, advisory, technology and implementation capabilities.</p>
+        <p>From generating insights and informing strategic decisions to developing intelligent systems and strengthening programme delivery, we leverage AI to enhance the way we think, work and deliver value.</p>
+        <ul class="focus-list">
+          <li>Generative and agentic AI</li>
+          <li>Advanced data analytics and predictive intelligence</li>
+          <li>Intelligent automation and AI agents</li>
+          <li>AI-powered knowledge management</li>
+          <li>Geospatial and satellite intelligence</li>
+          <li>Digital government and intelligent public services</li>
+          <li>Responsible AI and technology governance</li>
+        </ul>
+      </div>
+    </div>
+    <div class="ai-boxes">
+      <div class="ai-box"><h4>AI-Aware</h4><p>Understanding emerging technologies, their potential, limitations and implications.</p></div>
+      <div class="ai-box"><h4>AI-Enabled</h4><p>Applying AI and intelligent tools to enhance research, analysis and professional delivery.</p></div>
+      <div class="ai-box"><h4>AI-Innovative</h4><p>Developing new solutions, transforming processes and helping clients adapt to the future.</p></div>
     </div>
   </div>
 </section>
 
 <section class="differentiation" id="impact">
   <div class="container">
-    <div class="section-head"><div class="kicker">What sets us apart</div><h2>TiigSad Global's Competitive Differentiation</h2></div>
+    <div class="section-head">
+      <div class="kicker">OUR DIFFERENTIATION</div>
+      <h2>A multidisciplinary perspective. An intelligent approach. A commitment to results.</h2>
+    </div>
     <div class="diff-grid">
-      <div class="diff-item"><span>1</span><h3>Deep Local Institutional Understanding</h3><p>Strong understanding of how Somali ministries, municipalities, government institutions and regional administrations operate, including their administrative structures, regulatory environments, institutional challenges and development priorities.</p></div>
-      <div class="diff-item"><span>2</span><h3>Research Connected to Implementation</h3><p>Moving beyond identifying development challenges to understanding the administrative, regulatory, financial and technical changes required to address them. Research should lead to practical recommendations, actionable strategies and measurable institutional improvements.</p></div>
-      <div class="diff-item"><span>3</span><h3>Technology as a Core Capability</h3><p>Combining strategic advisory with practical technology development. TiigSad should be able to advise a government institution on institutional reform and develop the digital infrastructure, information systems and tools required to operationalise that reform.</p></div>
-      <div class="diff-item"><span>4</span><h3>Integrated Development Expertise</h3><p>Bringing research, policy, institutional reform, technology and implementation support together within one organisation. This integrated approach enables TiigSad to support clients throughout the development process, from identifying a problem to designing, implementing and evaluating a solution.</p></div>
+      <div class="diff-item"><span>01</span><h3>Deep Local Institutional Understanding</h3><p>Strong understanding of how Somali ministries, municipalities, government institutions and regional administrations operate, including their administrative structures, regulatory environments, institutional challenges and development priorities.</p></div>
+      <div class="diff-item"><span>02</span><h3>Research Connected to Implementation</h3><p>Moving beyond identifying development challenges to understanding the administrative, regulatory, financial and technical changes required to address them. Our research leads to practical recommendations, actionable strategies and measurable institutional improvements.</p></div>
+      <div class="diff-item"><span>03</span><h3>Intelligence and Technology at the Core</h3><p>We integrate artificial intelligence, advanced analytics and digital technologies into our professional capabilities. We help organisations understand emerging technologies, identify opportunities and apply intelligent solutions to real-world institutional and operational challenges.</p></div>
+      <div class="diff-item"><span>04</span><h3>Integrated Development Expertise</h3><p>Bringing research, policy, institutional reform, technology and implementation support together within one organisation. This enables TiigSad to support clients throughout the development process, from identifying a problem to designing, implementing and evaluating a solution.</p></div>
+      <div class="diff-item"><span>05</span><h3>Forward-Looking and Adaptive Thinking</h3><p>We continuously examine emerging technologies, changing development priorities and evolving institutional needs. Our approach helps clients anticipate change, adapt to new realities and prepare for future opportunities.</p></div>
     </div>
   </div>
 </section>
 
 <section class="services" id="services">
- <div class="container">
-  <div class="section-head"><div class="kicker">Our capabilities</div><h2>Integrated services for complex needs.</h2><p>Five connected service divisions enable TiigSad to support public institutions, development organisations and businesses with focused expertise and coordinated solutions.</p></div>
-  <div class="service-grid">
-   <article class="service-card"><div class="service-no">01</div><h3>Donor & NGO Compliance / Assurance</h3><p>Strengthening accountability, controls and the systems behind programme delivery.</p><ul><li>Donor compliance and readiness reviews</li><li>Financial and internal control assessments</li><li>Procurement and partner capacity reviews</li><li>Programme and results verification</li><li>Audit preparation and corrective action</li></ul><a class="learn" href="#contact">DISCUSS THIS SERVICE ↗</a></article>
-   <article class="service-card"><div class="service-no">02</div><h3>Government & Public Sector Advisory</h3><p>Helping public institutions improve planning, governance, performance and service delivery.</p><ul><li>Institutional and organisational assessments</li><li>Policy, strategy and regulatory advisory</li><li>Public-sector process improvement</li><li>Programme and project advisory</li><li>Monitoring, evaluation and learning systems</li></ul><a class="learn" href="#contact">DISCUSS THIS SERVICE ↗</a></article>
-   <article class="service-card"><div class="service-no">03</div><h3>Corporate Finance & Investment Advisory</h3><p>Supporting sound financial decisions, investment planning and commercially viable projects.</p><ul><li>Feasibility studies and investment appraisal</li><li>Financial modelling and business valuation</li><li>Business plans and investment readiness</li><li>Budgeting and financial management systems</li><li>Project finance and transaction support</li></ul><a class="learn" href="#contact">DISCUSS THIS SERVICE ↗</a></article>
-   <article class="service-card"><div class="service-no">04</div><h3>SME & Business Advisory</h3><p>Helping enterprises strengthen operations, management and readiness for growth.</p><ul><li>Business diagnostics and growth strategy</li><li>Operational and process improvement</li><li>Financial systems and cash-flow planning</li><li>Procurement and supply-chain advisory</li><li>Supplier and tender readiness</li></ul><a class="learn" href="#contact">DISCUSS THIS SERVICE ↗</a></article>
-   <article class="service-card"><div class="service-no">05</div><h3>Technology & Digital Solutions</h3><p>Designing practical digital systems that improve visibility, control and performance.</p><ul><li>Digital transformation advisory</li><li>ERP and management information systems</li><li>Workflow and process automation</li><li>Dashboards, reporting and data systems</li><li>Systems integration and implementation support</li></ul><a class="learn" href="#contact">DISCUSS THIS SERVICE ↗</a></article>
-   <article class="service-card" style="background:var(--navy);border-color:var(--navy);color:#fff"><div class="service-no" style="color:var(--gold2)">+</div><h3 style="color:#fff">Integrated Project Support</h3><p style="color:#bdc8d6">Bring disciplines together around a defined assignment, from diagnostic and design through to implementation support.</p><ul style="color:#cbd5e1"><li>Multi-disciplinary teams</li><li>Specialist and consortium partnerships</li><li>Assignment-specific delivery models</li><li>Knowledge transfer and capacity support</li></ul><a class="learn" href="#contact" style="color:var(--gold2)">START A CONVERSATION ↗</a></article>
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">OUR SERVICES</div>
+      <h2>Integrated services for complex needs.</h2>
+      <p>TiigSad Global brings together specialised professional capabilities across research, institutional advisory, financial and business consulting, technology and independent assurance.</p>
+    </div>
+    <div class="capability-list">
+      <article class="capability-card"><h3>01. Research, Monitoring, Evaluation &amp; Learning</h3><ul><li>Baseline, midline and endline assessments</li><li>Impact and performance evaluations</li><li>Third-party monitoring and verification</li><li>AI-assisted research and data analysis</li><li>Research publications and policy briefs</li></ul></article>
+      <article class="capability-card"><h3>02. Government &amp; Public Sector Advisory</h3><ul><li>Institutional and organisational assessments</li><li>Policy, strategy and regulatory advisory</li><li>Institutional strengthening and reform</li><li>AI readiness and government transformation</li><li>Digital government strategies</li></ul></article>
+      <article class="capability-card"><h3>03. Corporate Finance &amp; Investment Advisory</h3><ul><li>Feasibility studies and investment appraisal</li><li>Financial modelling and business valuation</li><li>Business plans and investment readiness</li><li>Market and economic assessments</li><li>Investment opportunity analysis</li></ul></article>
+      <article class="capability-card"><h3>04. Donor Compliance, Assurance &amp; Implementation</h3><ul><li>Donor compliance and readiness reviews</li><li>Financial and internal control assessments</li><li>Procurement and partner capacity reviews</li><li>AI-assisted reporting and risk analysis</li><li>Implementation support and corrective action</li></ul></article>
+      <article class="capability-card"><h3>05. Business, Technology &amp; Digital Solutions</h3><ul><li>Business diagnostics and growth strategy</li><li>Operational and process improvement</li><li>AI-powered applications and intelligent automation</li><li>Workflow automation and systems integration</li><li>Data dashboards, analytics and reporting</li></ul></article>
+      <article class="capability-card"><h3>Integrated Project Support</h3><ul><li>Multidisciplinary professional teams</li><li>Specialist and consortium partnerships</li><li>Assignment-specific delivery models</li><li>Technical assistance and institutional mentoring</li><li>AI-enabled tools and analytical support</li></ul></article>
+    </div>
   </div>
- </div>
 </section>
 
 <section id="approach">
- <div class="container approach-grid">
-  <div class="approach-copy"><div class="kicker">Our approach</div><h2>From understanding the challenge to delivering the solution.</h2><p>Every engagement is shaped around its objectives, operating context and required results. We combine structured analysis with practical implementation thinking.</p><a class="btn" href="#contact">Work with TiigSad ↗</a></div>
-  <div class="steps">
-   <div class="step"><div class="step-num">01</div><div><h3>Understand</h3><p>Clarify the assignment, stakeholders, context, risks and expected outcomes.</p></div></div>
-   <div class="step"><div class="step-num">02</div><div><h3>Assess</h3><p>Review available evidence, systems, processes and operational realities.</p></div></div>
-   <div class="step"><div class="step-num">03</div><div><h3>Design</h3><p>Develop practical recommendations, technical approaches and implementation plans.</p></div></div>
-   <div class="step"><div class="step-num">04</div><div><h3>Deliver</h3><p>Provide agreed professional services, tools, systems and implementation support.</p></div></div>
-   <div class="step"><div class="step-num">05</div><div><h3>Strengthen</h3><p>Support learning, knowledge transfer and sustainable institutional capability.</p></div></div>
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">OUR METHODOLOGY</div>
+      <h2>From understanding the challenge to delivering the solution.</h2>
+    </div>
+    <div class="method-grid">
+      <div class="method-step"><div class="num">01</div><h4>Understand</h4><p>Clarify the assignment, stakeholders, context, risks and expected outcomes.</p></div>
+      <div class="method-step"><div class="num">02</div><h4>Assess</h4><p>Review available evidence, systems, processes and operational realities.</p></div>
+      <div class="method-step"><div class="num">03</div><h4>Design</h4><p>Develop practical recommendations, technical approaches and implementation plans.</p></div>
+      <div class="method-step"><div class="num">04</div><h4>Deliver</h4><p>Provide agreed professional services, tools, systems and implementation support.</p></div>
+      <div class="method-step"><div class="num">05</div><h4>Strengthen</h4><p>Support learning, knowledge transfer and sustainable institutional capability.</p></div>
+    </div>
   </div>
- </div>
 </section>
 
 <section class="sectors" id="industry">
- <div class="container">
-  <div class="section-head"><div class="kicker">Where we work</div><h2>Expertise across sectors and institutions.</h2><p>We tailor our teams and methods to the operating environment, sector requirements and objectives of each assignment.</p></div>
-  <div class="sector-grid">
-   <div class="sector"><span>⌂</span><h3>Government & Governance</h3><p>Public administration, institutional performance and policy.</p></div>
-   <div class="sector"><span>◇</span><h3>Development & Humanitarian</h3><p>Donor-funded programmes, NGOs and implementing partners.</p></div>
-   <div class="sector"><span>▦</span><h3>Infrastructure & Urban Development</h3><p>Public assets, project delivery and municipal systems.</p></div>
-   <div class="sector"><span>⌁</span><h3>Finance & Investment</h3><p>Financial management, feasibility and investment decisions.</p></div>
-   <div class="sector"><span>▤</span><h3>Private Sector & SMEs</h3><p>Enterprise development, operations and competitiveness.</p></div>
-   <div class="sector"><span>◎</span><h3>Digital Government & Business</h3><p>Technology, information systems and process automation.</p></div>
-   <div class="sector"><span>≈</span><h3>Climate & Resilience</h3><p>Risk-informed planning and sustainable investment.</p></div>
-   <div class="sector"><span>＋</span><h3>Social Services</h3><p>Institutional systems and programme performance.</p></div>
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">OUR SECTORS</div>
+      <h2>Expertise across sectors and institutions.</h2>
+    </div>
+    <div class="sector-list">
+      <div class="sector"><span>⌂</span><h3>Government &amp; Governance</h3><p>Public administration, institutional performance, policy and digital government.</p></div>
+      <div class="sector"><span>◇</span><h3>Development &amp; Humanitarian</h3><p>Donor-funded programmes, NGOs, implementing partners and programme evaluation.</p></div>
+      <div class="sector"><span>▦</span><h3>Infrastructure &amp; Urban Development</h3><p>Public assets, infrastructure assessments and municipal systems.</p></div>
+      <div class="sector"><span>⌁</span><h3>Finance &amp; Investment</h3><p>Financial management, feasibility and economic analysis.</p></div>
+      <div class="sector"><span>▤</span><h3>Private Sector &amp; Enterprise</h3><p>Business development, operations and competitiveness.</p></div>
+      <div class="sector"><span>◎</span><h3>Digital Government &amp; AI</h3><p>Digital transformation, intelligent automation and data intelligence.</p></div>
+      <div class="sector"><span>≈</span><h3>Climate &amp; Resilience</h3><p>Risk-informed planning and sustainable investment.</p></div>
+      <div class="sector"><span>＋</span><h3>Social Services &amp; Human Development</h3><p>Institutional systems, public service delivery and programme performance.</p></div>
+    </div>
   </div>
- </div>
 </section>
 
 <section class="insights" id="insights">
- <div class="container">
-  <div class="section-head"><div class="kicker">Knowledge & insights</div><h2>Practical thinking. Clear evidence. Useful tools.</h2><p>Our knowledge programme translates complex issues into concise research, visual explainers, technical notes and practical resources for decision-makers.</p></div>
-  <div class="insight-grid">
-   <article class="insight"><div class="insight-art"><span>Research brief · Delivery assurance</span></div><div class="insight-body"><span class="tag">Programme performance</span><h3>From Funding to Results</h3><p>A practical framework for connecting project expenditure, procurement, physical outputs and reported results.</p><a class="learn" href="#contact">REQUEST THE BRIEF ↗</a></div></article>
-   <article class="insight"><div class="insight-art" style="background:linear-gradient(135deg,#31445b,#6c7b83)"><span>Technical note · Institutional systems</span></div><div class="insight-body"><span class="tag">Partner capacity</span><h3>Building Stronger Implementing Partners</h3><p>Key institutional systems and practical improvement priorities for organisations managing development grants.</p><a class="learn" href="#contact">REQUEST THE NOTE ↗</a></div></article>
-   <article class="insight"><div class="insight-art" style="background:linear-gradient(135deg,#293c50,#8b7957)"><span>Sector assessment · Asset management</span></div><div class="insight-body"><span class="tag">Infrastructure sustainability</span><h3>After Construction: Who Maintains the Asset?</h3><p>Exploring ownership, maintenance responsibilities and operational readiness for public infrastructure.</p><a class="learn" href="#contact">REQUEST THE ASSESSMENT ↗</a></div></article>
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">KNOWLEDGE THAT INFORMS DECISIONS</div>
+      <h2>Research, perspectives and intelligence for a changing world.</h2>
+      <p>TiigSad Global produces research, publications and analytical perspectives examining the challenges, opportunities and transformations shaping governments, economies, institutions and communities.</p>
+    </div>
+    <div class="insight-list">
+      <article class="insight"><div class="insight-art"><span>Research · Policy</span></div><div class="insight-body"><span class="tag">Research</span><h3>Development and sector intelligence</h3><p>Examining the priorities, constraints and opportunities shaping resilient growth and better institutional decisions.</p><a class="learn" href="#contact">EXPLORE INSIGHTS ↗</a></div></article>
+      <article class="insight"><div class="insight-art" style="background:linear-gradient(135deg,#31445b,#6c7b83)"><span>AI · Emerging tech</span></div><div class="insight-body"><span class="tag">AI</span><h3>Artificial intelligence and emerging technology perspectives</h3><p>Exploring responsible adoption, practical opportunities and strategic implications for institutions and enterprises.</p><a class="learn" href="#contact">EXPLORE INSIGHTS ↗</a></div></article>
+      <article class="insight"><div class="insight-art" style="background:linear-gradient(135deg,#293c50,#8b7957)"><span>Evaluation · Learning</span></div><div class="insight-body"><span class="tag">Learning</span><h3>Evaluation reports and learning publications</h3><p>Turning evidence into lessons and practical recommendations for stronger programme and institutional performance.</p><a class="learn" href="#contact">EXPLORE INSIGHTS ↗</a></div></article>
+    </div>
   </div>
- </div>
 </section>
 
-<div class="cta-band"><div class="container cta-inner"><div><h2>Have a challenge that needs a practical solution?</h2><p>Discuss your organisation's priorities, a potential assignment or an opportunity to work together.</p></div><a class="btn" href="#contact">Contact TiigSad Global ↗</a></div></div>
+<section class="closing-quote">
+  <div class="container">
+    <div class="closing-box section-head">
+      <div class="kicker">TIIGSAD GLOBAL</div>
+      <h2>The future requires more than conventional thinking.</h2>
+      <p>TiigSad Global brings together independent thinking, multidisciplinary expertise and intelligent technologies to help organisations navigate change and build for the future.</p>
+      <a class="btn" href="#contact">START A CONVERSATION ↗</a>
+    </div>
+  </div>
+</section>
 
 <section class="contact" id="contact">
- <div class="container">
-  <div class="section-head"><div class="kicker">Get in touch</div><h2>Start a conversation with our team.</h2><p>For consultancy assignments, institutional partnerships, technical collaboration and business enquiries.</p></div>
-  <div class="contact-grid">
-   <div class="contact-info"><h3>Let's discuss your priorities.</h3><p>Share a brief outline of your organisation's needs. Our team can follow up to understand the assignment and discuss appropriate next steps.</p>
-    <div class="contact-detail"><small>Organisation</small>TiigSad Global</div>
-    <div class="contact-detail"><small>Service areas</small>Advisory · Assurance · Solutions</div>
-    <div class="contact-detail"><small>Email</small>info@tiiigsad.com</div>
-    <div class="contact-detail"><small>Office</small>Nairobi, Kenya</div>
-   </div>
-   <form class="form" id="contactForm">
-    <div class="field"><label for="name">Full name</label><input id="name" name="name" required placeholder="Your name"></div>
-    <div class="field"><label for="org">Organisation</label><input id="org" name="organisation" placeholder="Organisation name"></div>
-    <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" required placeholder="name@organisation.org"></div>
-    <div class="field"><label for="service">Area of interest</label><select id="service" name="service"><option>Donor & NGO Compliance / Assurance</option><option>Government & Public Sector Advisory</option><option>Corporate Finance & Investment Advisory</option><option>SME & Business Advisory</option><option>Technology & Digital Solutions</option><option>Partnership / Other</option></select></div>
-    <div class="field full"><label for="message">How can we support you?</label><textarea id="message" name="message" required placeholder="Briefly describe your assignment or enquiry..."></textarea></div>
-    <div class="field full"><button class="btn" type="submit">Prepare enquiry ↗</button></div>
-    <div class="form-note">This enquiry form opens an email draft using the TiigSad Global contact address.</div>
-   </form>
+  <div class="container">
+    <div class="section-head">
+      <div class="kicker">Get in touch</div>
+      <h2>Start a conversation with our team.</h2>
+      <p>For consultancy assignments, institutional partnerships, technical collaboration and business enquiries.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Let's discuss your priorities.</h3>
+        <p>Share a brief outline of your organisation's needs. Our team can follow up to understand the assignment and discuss appropriate next steps.</p>
+        <div class="contact-detail"><small>Organisation</small>TiigSad Global</div>
+        <div class="contact-detail"><small>Service areas</small>Advisory · Assurance · Solutions</div>
+        <div class="contact-detail"><small>Email</small>info@tiiigsad.com</div>
+        <div class="contact-detail"><small>Office</small>Nairobi, Kenya</div>
+      </div>
+      <form class="form" id="contactForm">
+        <div class="field"><label for="name">Full name</label><input id="name" name="name" required placeholder="Your name"></div>
+        <div class="field"><label for="org">Organisation</label><input id="org" name="organisation" placeholder="Organisation name"></div>
+        <div class="field"><label for="email">Work email</label><input id="email" name="email" type="email" required placeholder="name@organisation.org"></div>
+        <div class="field"><label for="service">Area of interest</label><select id="service" name="service"><option>Research, Monitoring & Evaluation</option><option>Government & Public Sector Advisory</option><option>Corporate Finance & Investment Advisory</option><option>Donor Compliance & Assurance</option><option>Business, Technology & Digital Solutions</option><option>AI & Intelligence</option><option>Partnership / Other</option></select></div>
+        <div class="field full"><label for="message">How can we support you?</label><textarea id="message" name="message" required placeholder="Briefly describe your assignment or enquiry..."></textarea></div>
+        <div class="field full"><button class="btn" type="submit">Prepare enquiry ↗</button></div>
+        <div class="form-note">This enquiry form opens an email draft using the TiigSad Global contact address.</div>
+      </form>
+    </div>
   </div>
- </div>
 </section>
 </main>
 <footer class="footer"><div class="container footer-inner"><div class="brand"><img class="brand-logo" src="assets/TiigSad_Global_Logo_Transparent.svg" alt="TiigSad Global logo"><div><p>© <span id="year"></span> TiigSad Global. All rights reserved.</p></div></div><div class="footer-links"><a href="#story">Our Story</a><a href="#services">Services</a><a href="#industry">Industry</a><a href="#insights">Insights</a></div></div></footer>
